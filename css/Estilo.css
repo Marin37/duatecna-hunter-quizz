@@ -1,0 +1,500 @@
+/*general*/
+.header1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+}
+
+.flex-item {
+	flex-flow: column wrap;
+	min-width: 100%;
+	flex: 1;
+	margin: auto;
+}
+
+.header__h1 {
+	font-family: 'Acme', sans-serif;
+	color: white;
+	font-size: 4em;
+	position: relative;
+	bottom: 115px;
+	left: 140px;
+}
+
+.navegacion ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.navegacion ul li {
+	display: inline-block;
+	font-family: 'Acme', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	left: 870px;
+	bottom: 240px;
+	padding: 0.5rem 0.5rem;
+}
+
+.navegacion ul li a {
+	display: block;
+	padding: 0.5rem 2.5rem;
+}
+
+.header__navegacion__logo {
+	position: relative;
+	left: 50px;
+	top: 7px;
+}
+
+.footer {
+	display: inline-block;
+	background-color: #1e1e1e;
+	position: relative;
+	width: 1542px;
+	right: 572px;
+}
+
+.footer p {
+	color: white;
+	position: relative;
+	left: 510px;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #c0c3c3;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+header {
+	background-color: #1d1e1e;
+	display: inline-block;
+	width: 1550px;
+	height: 150px;
+	position: relative;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+.header__img {
+	position: relative;
+	left: 1180px;
+	bottom: 260px;
+}
+
+.header__ul1{
+	position: relative;
+	bottom: 60px;
+	left: 360px;
+}
+
+/*Index¨*/
+.primer-texto {
+	display: inline-block;
+	width: 1550px;
+	height: 950px;
+	position: relative;
+	bottom: 150px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.primer-texto__h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 4.5em;
+	position: relative;
+	left: 310px;
+	bottom: 30px;
+	color: #FAAC39;
+}
+
+.primer-texto__p {
+	font-family: 'Architects Daughter', cursive;
+	color: white;
+	position: relative;
+	display: inline;
+	font-size: 1.3em;
+	bottom: 90px;
+	left: 260px;
+}
+
+.primer-texto__img {
+	position: relative;
+	left: 180px;
+	bottom: 50px;
+}
+
+.segundo-texto {
+	display: inline-block;
+	width: 1550px;
+	height: 950px;
+	position: relative;
+	bottom: 79px;
+	box-sizing: border-box;
+	background-color: #c0c3c3;
+}
+
+.segundo-texto__h2 {
+	font-size: 4.5em;
+	font-family: 'Satisfy', cursive;
+	position: relative;
+	left: 290px;
+	bottom: 20px;
+}
+
+.segundo-texto__p {
+	font-family: 'Architects Daughter', cursive;
+	position: relative;
+	display: inline;
+	font-size: 1.3em;
+	bottom: 80px;
+	left: 260px;
+}
+
+.segundo-texto__img {
+	position: relative;
+	left: 180px;
+	bottom: 50px;
+}
+
+.tercer-texto {
+	display: inline-block;
+	width: 1550px;
+	height: 950px;
+	position: relative;
+	bottom: 79px;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.tercer-texto__h2 {
+	font-size: 4.5em;
+	font-family: 'Satisfy', cursive;
+	color: #FAAC39;
+	position: relative;
+	left: 230px;
+	bottom: 25px;
+}
+
+.tercer-texto__p {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.3em;
+	display: inline;
+	color: white;
+	position: relative;
+	bottom: 80px;
+	left: 355px;
+}
+
+.tercer-texto__img {
+	position: relative;
+	left: 180px;
+	bottom: 50px;
+}
+
+.jugar {
+	display: inline-block;
+	width: 1550px;
+	height: 200px;
+	background-color: black;
+	position: relative;
+	bottom: 79px;
+}
+
+.jugar__h3 {
+	font-family: 'Acme', sans-serif;
+	font-size: 4em;
+	color: #FAAC39;
+	position: relative;
+	left: 430px;
+	bottom: 90px;
+}
+
+.jugar__a {
+	position: relative;
+	font-size: 4em;
+	bottom: 115px;
+	left: 675px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer1 {
+	display: inline-block;
+	background-color: #1e1e1e;
+	position: relative;
+	width: 1542px;
+	right: 572px;
+	left: 0;
+}
+
+.body {
+	background-color: black;
+}
+
+.footer1 p {
+	color: white;
+	position: relative;
+	left: 510px;
+}
+
+/*Iniciar Sesion*/
+.header {
+	height: 75px;
+}
+
+.caja-registro {
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	height: 600px;
+	width: 400px;
+	border: 1.8px solid black;
+	padding: 20px;
+	left: 550px;
+	top: 30px;
+}
+
+.iniciar {
+	font-family: 'Mate', serif;
+	font-size: 3.5em;
+	position: relative;
+	left: 10px;
+	bottom: 25px;
+}
+
+.credenciales {
+	text-decoration: none;
+	margin: 15px;
+}
+
+.credenciales__email {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 1.5em;
+	position: relative;
+	right: -5px;
+	bottom: 50px;
+}
+
+.credenciales__i--email {
+	position: relative;
+	bottom: 90px;
+	right: -5px;
+	height: 35px;
+	width: 300px;
+}
+
+.credenciales__contraseña {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 115px;
+	right: -5px;
+}
+
+.credenciales__i--contraseña {
+	position: relative;
+	height: 35px;
+	width: 300px;
+	bottom: 155px;
+	right: -5px;
+
+}
+
+.credenciales__submit {
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size: 1.1em;
+	height: 40px;
+	width: 308px;
+	position: relative;
+	bottom: 156px;
+	right: -5px;
+}
+
+.recuperar-contraseña {
+	font-size: 1.1em;
+	position: relative;
+	bottom: 165px;
+	left: 20px;
+}
+
+.conectar-google {
+	border: 2px solid black;
+	border-radius: 15px;
+	position: relative;
+	bottom: 170px;
+	height: 45px;
+}
+
+.conectar-google__img {
+	position: relative;
+	top: 8px;
+	left: 15px;
+}
+
+.conectar-google__p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 48px;
+	left: 70px;
+	color: black;
+}
+
+.conectar-microsoft {
+	border: 2px solid black;
+	border-radius: 15px;
+	position: relative;
+	bottom: 160px;
+	height: 45px;
+}
+
+.conectar-microsoft__img {
+	position: relative;
+	top: 8px;
+	left: 15px;
+}
+
+.conectar-microsoft__p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 48px;
+	left: 70px;
+	color: black;
+}
+
+.conectar-apple {
+	border: 2px solid black;
+	border-radius: 15px;
+	position: relative;
+	bottom: 150px;
+	height: 45px;
+}
+
+.conectar-apple__img {
+	position: relative;
+	top: 8px;
+	left: 15px;
+}
+
+.conectar-apple__p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	position: relative;
+	bottom: 48px;
+	left: 70px;
+	color: black;
+}
+
+.no-tenes-cuenta__p {
+	position: relative;
+	bottom: 55px;
+	left: 60px;
+}
+
+.conectar-cuentas a {
+	text-decoration: none;
+}
+
+.header__navegacion__home {
+	position: relative;
+	bottom: 297px;
+	left: 1400px;
+}
+
+/*Regsitrarse inicio*/
+.fondo {
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/fondoo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header__ul {
+	position: relative;
+	bottom: 70px;       
+	left: 380px;
+}
+
+.titulo {
+	font-family: 'Acme', sans-serif;
+	color:#FAAC39 ;
+	margin: 20px;
+	position: relative;
+	font-size: 80px;
+	left: 350px;
+	top: 20px;
+}
+
+.maestro-alumno {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	list-style: none;
+}
+
+.maestro-alumno a {
+	text-decoration: none;
+}
+
+.maestro-alumno__profesor {
+	position: relative;
+	left: 400px;
+}
+
+.maestro-alumno__alumno {
+	position: relative;
+	left: 800px;
+	bottom: 360px;
+}
+
+.maestro-alumno__alumno h3 {
+	font-family: 'Mate', serif;
+	font-size: 30px;
+	color: #FAAC39;
+	position: relative;
+	left: 68px;
+	bottom: 60px;
+}
+
+.maestro-alumno__profesor h3 {
+	font-family: 'Mate', serif;
+	font-size: 30px;
+	color: #FAAC39;
+	position: relative;
+	left: 73px;
+	bottom: 68px;
+}
+
+/*Registarse alumno-maestro*/
+
+/*Inicio*/
+
+/*Materiales*/
+
+/*Juegos*/
+
+/*Crear juego*/
+
+/*Crear apunte*/
+
+/*ayuda*/
